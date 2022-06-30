@@ -113,5 +113,12 @@ ul {
     background-color: #F3CA3E;
 }
 
+.credit {
+    font-family: Karla, sans-serif;
+    font-size: 22;
+    margin: auto;
+    width: fit-content;
+}
+
 
 
