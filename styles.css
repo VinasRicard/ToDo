@@ -1,0 +1,117 @@
+body {
+    background-color: #333333;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    color: #F3CA3E;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    text-align: left;
+}
+
+.add_bar {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-color: #4F4F4F;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.add_txt {
+    font-family: 'Karla', sans-serif;
+    color: #E0E0E0;
+    background-color: #333333;
+    font-size: 18px;
+    width: 100%;
+    float: left;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+.task {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.task2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 100px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 100px;
+    border-color: #F3CA3E;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.task_txt {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 15px;
+    width: 100%;
+    cursor: default;
+}
+
+.task_txt2 {
+    font-family: 'Karla', sans-serif;
+    color: #F3CA3E;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 15px;
+    width: 100%;
+    text-decoration: line-through;
+    cursor: default;
+}
+
+.circle:hover{
+    border-color: #F3CA3E;
+    background-color: #F3CA3E;
+}
+
+
+
